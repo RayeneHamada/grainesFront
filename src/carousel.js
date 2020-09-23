@@ -7,8 +7,6 @@ const dots = Array.from(dotsNav.children);
 
 const slideSize = slides[0].getBoundingClientRect();
 const slideWidth = slideSize.width;
-console.log(slideWidth)
-
 //arrange the slides next
 const setSlidePosition = (slide, index) => {
     slide.style.left = slideWidth * index + 'px';
