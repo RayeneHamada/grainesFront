@@ -1,0 +1,40 @@
+.nos-partenaires {
+    text-align: center;
+}
+
+.nos-partenaires .images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nos-partenaires .images img {
+    width: 10%;
+    height: auto;
+    align-self: center;
+    filter: grayscale(100%);
+}
+
+.nos-partenaires .images img:hover {
+    filter: grayscale(0);
+    animation-name: colorToImages;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorToImages {
+    0% {
+        filter: grayscale(100%);
+    }
+
+    100% {
+        filter: grayscale(0)
+    }
+}
+
+.nos-partenaires h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4D4D4D;
+}

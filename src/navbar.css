@@ -1,0 +1,56 @@
+.nav {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, .2);
+}
+
+
+.nav .lists {
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    float: right;
+    margin-right: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 72vw;
+}
+
+.nav img {
+    padding: 0;
+    float: left;
+    width: 8.5vw;
+    margin-bottom: 0.5vh;
+    margin-left: 10vw;
+}
+
+.nav .lists a {
+    min-width: 70px;
+}
+
+.nav a {
+    color: #000000;
+    text-align: center;
+    font-size: 1.2vw;
+    border-radius: 10px;
+    padding: 1vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav .inscrivez-vous {
+    background-color: #3677E9;
+    padding: 1vw 3vw;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, .2);
+}
+
+.langueSelect {
+    color: #949494 !important
+}
