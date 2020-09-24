@@ -89,6 +89,10 @@
     background-size: 100% 200% !important;
 }
 
+.inscription .boxes a {
+    font-size: 1.5vw;
+}
+
 .inscription a {
     margin-bottom: 30px;
     padding: 20%;
