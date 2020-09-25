@@ -1,9 +1,15 @@
+.temoignage .carousel {
+    width: 100%;
+    margin: 0;
+}
+
 .temoignage .carousel .carousel_track-container {
     background-color: #ECECEC;
 }
 
 .temoignage .carousel {
     height: 20vw;
+    box-shadow: 2px 6px 20px 1px rgba(0, 0, 0, .2)
 }
 
 .temoignage .carousel_nav .carousel_indicator {
@@ -31,4 +37,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2vw;
+}
+
+.temoignage .carousel_indicator {
+    box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, .2);
 }

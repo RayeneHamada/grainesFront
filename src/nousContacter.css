@@ -1,0 +1,56 @@
+.nousContacter {
+    width: 50vw;
+    margin: auto;
+    background-color: #ECECEC;
+    border-radius: 10px;
+}
+
+.nousContacter .container {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.nousContacter form {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    position: relative;
+    width: 40%;
+}
+
+.nousContacter form * {
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.nousContacter form .email {
+    border: 0;
+}
+
+.nousContacter .image {
+    position: absolute;
+    width: 50%;
+    right: 5%;
+    top: -10%;
+    z-index: 0;
+}
+
+.nousContacter .image svg {
+    width: 100%;
+    padding: 0
+}
+
+.nousContacter textarea {
+    height: 20vw;
+    margin: 10px 0;
+    width: 100%;
+    resize: none;
+}
+
+.nousContacter input.submit {
+    position: absolute;
+    right: -60%;
+    bottom: 15%;
+    width: 40%;
+}
