@@ -22,6 +22,5 @@ const Start = () => {
     })
     container.removeEventListener('mouseover', Start)
 }
-console.log(container)
 // container.addEventListener('click')
 container.addEventListener("mouseover", Start)
