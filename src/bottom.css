@@ -1,0 +1,90 @@
+.bottom .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(38, 92, 184, 1) 0%, rgba(53, 117, 229, 1) 100%);
+    ;
+}
+
+.bottom * {
+    color: white;
+}
+
+.bottom .container .left {
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+.bottom .left img {
+    width: 8vw;
+}
+
+.bottom .left form {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin: 1vh 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 8px 2px;
+}
+
+.bottom .left p {
+    font-size: 1.15vw;
+}
+
+.bottom .left h7 {
+    font-size: 0.85vw;
+}
+
+.bottom .left form * {
+    border-radius: 6px;
+    margin: 0;
+    border: 0;
+    padding: 0.5vw;
+    height: 30px;
+    box-sizing: border-box
+}
+
+.bottom .left form .email {
+    width: 15vw;
+}
+
+.bottom .left form .submit {
+    margin-left: -1vw;
+    background-color: #FFD235;
+    box-shadow: rgba(0, 0, 0, 0.2) -6px 2px 11px 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.bottom .left form .submit:hover {
+    transform: scale(1.05);
+    background-color: #F9B936;
+}
+
+.bottom a {
+    text-decoration: none;
+}
+
+.bottom .left svg {
+    width: 4vw;
+    padding: 0;
+    margin: 1vh 2vh 0 2vh;
+    margin-left: 0;
+    margin-bottom: 2vh;
+}
+
+.bottom .right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 10vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.bottom .right * {
+    font-size: 1.15w;
+}

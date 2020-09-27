@@ -32,11 +32,11 @@
     position: absolute;
     width: 50%;
     right: 5%;
-    top: -10%;
+    top: 10%;
     z-index: 0;
 }
 
-.nousContacter .image svg {
+.nousContacter .image img {
     width: 100%;
     padding: 0
 }
