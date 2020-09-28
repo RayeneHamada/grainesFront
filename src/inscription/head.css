@@ -1,0 +1,20 @@
+.inscription-head {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.inscription-head * {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.inscription-head h1 {
+    font-size: 2vw;
+    color: #3677E9
+}
+
+.inscription-head p {
+    font-size: 1.21vw;
+    color: #707070;
+}
