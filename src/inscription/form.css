@@ -4,16 +4,90 @@ body {
 
 .inscription-form {
     text-align: center;
+    position: relative;
+
 }
 
 .inscription-form form {
-    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, .2);
-
-    width: 40%;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 43%;
     margin: auto;
+    text-align: left;
+    z-index: 1;
+    background-color: white;
+    padding: 5% 8%;
 }
 
 .inscription-form h1 {
     color: #707070;
     font-size: 2.15vw;
+}
+
+.inscription-form form p {
+    font-size: 1.3vw;
+    color: #373737;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.inscription-form input {
+    width: 100%;
+    height: 5vh;
+    border: 2px solid #373737;
+    border-radius: 4px;
+}
+
+.inscription-form input[type="radio"] {
+    width: 10%;
+    display: inline;
+    float: left;
+}
+
+.inscription-form select {
+    width: 100%;
+    height: 5vh;
+    border: 2px solid #373737;
+    border-radius: 4px;
+    margin-bottom: 3vh;
+}
+
+.inscription-form form a {
+    text-align: center;
+}
+
+.inscription-form form button {
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #3677E9;
+    color: white;
+    text-align: center;
+    height: 7vh;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 8px 14px 3px rgba(0, 0, 0, .2)
+}
+
+.inscription-form a p {
+    padding-top: 5vh;
+
+}
+
+.inscription-form img.background {
+    width: 90vw;
+    left: 5vw;
+    z-index: -1;
+    position: absolute;
+    bottom: -15vh;
+}
+
+.inscription-form img.girl {
+    width: 14vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    left: 20vw;
+    bottom: -15vh;
 }
