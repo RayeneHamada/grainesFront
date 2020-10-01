@@ -53,6 +53,7 @@ body {
     border: 2px solid #373737;
     border-radius: 4px;
     margin-bottom: 3vh;
+    font-size: 1vw;
 }
 
 .inscription-form form a {
@@ -75,6 +76,10 @@ body {
 .inscription-form a p {
     padding-top: 5vh;
 
+}
+
+.inscription-form button {
+    font-size: 1.3vw;
 }
 
 .inscription-form img.background {

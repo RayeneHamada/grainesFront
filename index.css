@@ -8,3 +8,20 @@ body {
     width: 100%;
     margin: 0
 }
+
+a.inscrivez-vous {
+    text-align: center;
+    font-size: 1.2vw;
+    border-radius: 10px;
+    padding: 1vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscrivez-vous {
+    background-color: #3677E9;
+    padding: 1vw 3vw;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, .2);
+}

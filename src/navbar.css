@@ -44,7 +44,7 @@
 
 
 .nav .inscrivez-vous {
-    background-color: #3677E9;
+    background: linear-gradient(0deg, rgba(38, 92, 184, 1) 0%, rgba(53, 117, 229, 1) 100%);
     padding: 1vw 3vw;
     color: white;
     text-align: center;
