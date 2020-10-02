@@ -1,0 +1,30 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 75vw;
+    margin: auto;
+
+    justify-content: space-around;
+    margin: 5vw auto;
+}
+
+.boxes .box {
+    width: 35vw;
+    text-align: center;
+}
+
+.boxes .box img {
+    width: 11vw;
+}
+
+.boxes .box h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.boxes .box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+}
