@@ -1,0 +1,44 @@
+.inscription {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+}
+
+.inscription .boxes {
+    box-sizing: border-box;
+    width: 18%;
+    padding: 4% 2%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, .2)
+}
+
+.inscription .boxes * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscription .boxes h1 {
+    font-size: 1.7vw;
+}
+
+.inscription .boxes h2 {
+    font-weight: normal;
+    font-size: 1vw;
+    margin: 0;
+}
+
+.inscription .boxes h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+.inscription .boxes p {
+    font-size: 0.8vw;
+}
+
+.inscription .boxes hr {
+    width: 95%;
+    color: blue;
+}
