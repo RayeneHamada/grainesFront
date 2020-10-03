@@ -1,0 +1,51 @@
+.descriptionBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.descriptionBox p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+
+.descriptionBox h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.descriptionBox .left {
+    width: 42vw;
+}
+
+.descriptionBox .right {
+    width: 20vw;
+}
+
+.descriptionBox .right p {
+    width: 25vw;
+}
+
+.descriptionBox .location img {
+    width: 21vw;
+    border-radius: 10px;
+    filter: grayscale(0.3);
+}
+
+.descriptionBox .share img {
+    width: 3vw;
+    margin-right: 2vw;
+}
+
+.descriptionBox .inscrivez-vous {
+    position: absolute;
+    width: 15vw;
+    right: -5vw;
+    bottom: -3vw;
+}

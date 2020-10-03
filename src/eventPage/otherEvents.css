@@ -1,0 +1,18 @@
+.otherEvents {
+    width: 80%;
+    margin: 5vw auto;
+}
+
+.otherEvents .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.otherEvents .box {
+    width: 25vw;
+}
+
+.otherEvents .box img {
+    width: 100%;
+}
