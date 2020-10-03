@@ -1,108 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="src/navbar.css" />
-    <link rel="stylesheet" href="src/carousel.css" />
-    <link rel="stylesheet" href="src/nos-partenaires.css" />
-    <link rel="stylesheet" href="src/intro.css" />
-    <link rel="stylesheet" href="src/quelqueChiffres.css" />
-    <link rel="stylesheet" href="src/inscription.css" />
-    <link rel="stylesheet" href="src/temoignage.css" />
-    <link rel="stylesheet" href="src/nousContacter.css" />
-    <link rel="stylesheet" href="src/bottom.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap" rel="stylesheet" />
 
-  <body>
-    <div class="nav">
-      <img src="public/logog.png" alt="logoGraines" />
-      <div class="lists">
-        <a href="#home">Accueil</a>
-        <a href="#A propos">A Propos</a>
-        <a href="#Prgrammes">Programmes</a>
-        <a href="#Contact">Contact</a>
-        <a href="#Prokets">Nos Projets</a>
-        <a href="#Gal">Galerie</a>
-        <a href="" class="langueSelect">Français ^</a>
-        <a class="inscrivez-vous" href="">Inscrivez vous</a>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="src/navbar.css" />
+  <link rel="stylesheet" href="src/carousel.css" />
+  <link rel="stylesheet" href="src/nos-partenaires.css" />
+  <link rel="stylesheet" href="src/intro.css" />
+  <link rel="stylesheet" href="src/quelqueChiffres.css" />
+  <link rel="stylesheet" href="src/inscription.css" />
+  <link rel="stylesheet" href="src/temoignage.css" />
+  <link rel="stylesheet" href="src/nousContacter.css" />
+  <link rel="stylesheet" href="src/bottom.css" />
+</head>
+
+<body>
+  <div class="nav">
+    <img src="public/logog.png" alt="logoGraines" />
+    <div class="lists">
+      <a href="#home">Accueil</a>
+      <a href="#A propos">A Propos</a>
+      <a href="#Prgrammes">Programmes</a>
+      <a href="#Contact">Contact</a>
+      <a href="#Prokets">Nos Projets</a>
+      <a href="#Gal">Galerie</a>
+      <a href="" class="langueSelect">Français ^</a>
+      <a class="inscrivez-vous" href="">Inscrivez vous</a>
+    </div>
+  </div>
+
+  <div class="carousel">
+    <div class="carousel_track-container">
+      <ul class="carousel_track">
+        <li class="carousel_slide current-slide">
+          <img src="public/car1.png" alt="" />
+          <div class="shader"></div>
+          <div class="text-holder">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Molestiae in non dolorum
+          </div>
+          <a class="inscrivez-vous" href="">Inscrivez vous</a>
+        </li>
+        <li class="carousel_slide">
+          <img src="public/car2.jpg" alt="" />
+          <div class="shader"></div>
+          <div class="text-holder">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+            dicta sint voluptate id, earum beatae?
+          </div>
+          <a class="inscrivez-vous" href="">Inscrivez vous</a>
+        </li>
+        <li class="carousel_slide">
+          <img src="public/car3.jpg" alt="" />
+          <div class="shader"></div>
+          <div class="text-holder">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            dolorem ullam inventore nobis ducimus omnis.
+          </div>
+          <a class="inscrivez-vous" href="">Inscrivez vous</a>
+        </li>
+        <li class="carousel_slide">
+          <img src="public/car4.jpg" alt="" />
+          <div class="shader"></div>
+          <div class="text-holder">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            quos cum a illum corporis aperiam.
+          </div>
+          <a class="inscrivez-vous" href="">Inscrivez vous</a>
+        </li>
+        <li class="carousel_slide">
+          <img src="public/car5.jpg" alt="" />
+          <div class="shader"></div>
+          <div class="text-holder">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            voluptatem, voluptates omnis vitae nam enim?
+          </div>
+          <a class="inscrivez-vous" href="">Inscrivez vous</a>
+        </li>
+      </ul>
+    </div>
+    <button class="carousel_button carousel_right">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.1" height="72.4"
+        viewBox="0 0 59.1 72.4">
+        <defs>
+          <filter id="Tracé_36" x="0" y="0" width="59.1" height="72.4" filterUnits="userSpaceOnUse">
+            <feOffset dy="4" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="5.5" result="blur" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+          </filter>
+        </defs>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_36)">
+          <path id="Tracé_36-2" data-name="Tracé 36" d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
+            transform="translate(16.5 51.9) rotate(-90)" fill="#fff" />
+        </g>
+      </svg>
+    </button>
+    <button class="carousel_button carousel_left is-hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.1" height="72.4"
+        viewBox="0 0 59.1 72.4">
+        <defs>
+          <filter id="Tracé_36" x="0" y="0" width="59.1" height="72.4" filterUnits="userSpaceOnUse">
+            <feOffset dy="4" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="5.5" result="blur" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+          </filter>
+        </defs>
+        <g id="Forward_arrow_small" data-name="Forward arrow small" transform="translate(42.6 51.9) rotate(180)">
+          <g transform="matrix(-1, 0, 0, -1, 42.6, 51.9)" filter="url(#Tracé_36)">
+            <path id="Tracé_36-2" data-name="Tracé 36" d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
+              transform="translate(42.6 12.5) rotate(90)" fill="#fff" />
+          </g>
+        </g>
+      </svg>
+    </button>
+  </div>
+  <div class="carousel_nav">
+    <button class="carousel_indicator current-slide"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+  </div>
+
+  <div class="nos-partenaires">
+    <h1>Nos Partenaires</h1>
+    <div class="images">
+      <img src="public/partenaire1.png" alt="" />
+      <img src="public/partenaire2.jpg" alt="" />
+      <img src="public/partenaire3.jpg" alt="" />
+      <img src="public/partenaire4.png" alt="" />
+      <img src="public/partenaire1.png" alt="" />
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="image">
+      <img src="public/imgIntro.png" alt="" />
+    </div>
+    <div class="text">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nam
+        aspernatur, totam, corrupti impedit illum quo architecto amet
+        asperiores enim mollitia porro distinctio ipsam! Repudiandae commodi
+        corporis sit minus accusamus.
+      </p>
+      <a>Savoir Plus</a>
+    </div>
+  </div>
+  <div class="quelqueChiffres">
+    <h3>Graines En Quelques Chiffres</h3>
+    <div class="container">
+      <div class="box">
+        <img src="public/iconQlq1.png" alt="" />
+        <p class="chiffres" data-target="60">000</p>
+        <p class="desc">Idées <br />De Projet</p>
+      </div>
+      <div class="box">
+        <img src="public/iconQlq2.png" alt="" />
+        <p class="chiffres" data-target="215">000</p>
+        <p class="desc">Enfants Impactés</p>
+      </div>
+      <div class="box">
+        <img src="public/iconQlq3.png" alt="" />
+        <p class="chiffres" data-target="20">000</p>
+        <p class="desc">Coaches</p>
+      </div>
+      <div class="box">
+        <img src="public/iconQlq4.png" alt="" />
+        <p class="chiffres" data-target="450">000</p>
+        <p class="desc">Heures De Formations</p>
+      </div>
+      <div class="box">
+        <img src="public/iconQlq5.png" alt="" />
+        <p class="chiffres" data-target="30">000</p>
+        <p class="desc">Participation à Des Evénements</p>
       </div>
     </div>
+  </div>
+  <div class="inscription">
+    <div class="container">
+      <div class="boxes first">
+        <h1>
+          Programme <br />
+          Blabla
+        </h1>
+        <h6>Xs Semaines</h6>
+        <h6>enfant de 5 a 10ans</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
+          repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
+        </p>
+        <hr />
+        <a href="">Inscrivez-vous</a>
+      </div>
+      <div class="boxes second">
+        <h1>
+          Programme <br />
+          Blabla
+        </h1>
+        <h6>Xs Semaines</h6>
+        <h6>enfant de 5 a 10ans</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
+          repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
+        </p>
+        <hr />
+        <a href="">Inscrivez-vous</a>
+      </div>
+      <div class="boxes third">
+        <h1>
+          Programme <br />
+          Blabla
+        </h1>
+        <h6>Xs Semaines</h6>
+        <h6>enfant de 5 a 10ans</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
+          repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
+        </p>
+        <hr />
+        <a href="">Inscrivez-vous</a>
+      </div>
+      <div class="boxes forth">
+        <h1>
+          Programme <br />
+          Blabla
+        </h1>
+        <h6>Xs Semaines</h6>
+        <h6>enfant de 5 a 10ans</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
+          repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
+        </p>
+        <hr />
+        <a href="">Inscrivez-vous</a>
+        <br />
+        <br />
+      </div>
+    </div>
+    <p class="someText">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
+      sunt.
+    </p>
+    <button class="btn"><a href="">Inscrivez-vous</a></button>
+    <div class="blueBg"></div>
+  </div>
+  <div class="vid">
+    <video style="width: 70%; margin: 5vw 15%" src="public/video.mp4" controls></video>
+  </div>
 
+  <div class="temoignage">
     <div class="carousel">
       <div class="carousel_track-container">
+        <br />
+        <br />
+        <br />
+
         <ul class="carousel_track">
           <li class="carousel_slide current-slide">
-            <img src="public/car1.png" alt="" />
-            <div class="shader"></div>
-            <div class="text-holder">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Molestiae in non dolorum
-            </div>
-            <a class="inscrivez-vous" href="">Inscrivez vous</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.911"
+              height="57.157" viewBox="0 0 60.911 57.157">
+              <defs>
+                <filter id="Tracé_585" x="0" y="0" width="60.911" height="57.157" filterUnits="userSpaceOnUse">
+                  <feOffset dy="3" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_585)">
+                <path id="Tracé_585-2" data-name="Tracé 585"
+                  d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
+                  transform="translate(9 6)" fill="#fff" />
+              </g>
+            </svg>
+
+            <p>
+              Lorem ipsum dolor, 1 sit amet consectetur adipisicing elit.
+              Architecto quae, nostrum sint aspernatur at dolores,
+            </p>
+            <h1>Name FamName</h1>
           </li>
           <li class="carousel_slide">
-            <img src="public/car2.jpg" alt="" />
-            <div class="shader"></div>
-            <div class="text-holder">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-              dicta sint voluptate id, earum beatae?
-            </div>
-            <a class="inscrivez-vous" href="">Inscrivez vous</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.911"
+              height="57.157" viewBox="0 0 60.911 57.157">
+              <defs>
+                <filter id="Tracé_585" x="0" y="0" width="60.911" height="57.157" filterUnits="userSpaceOnUse">
+                  <feOffset dy="3" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_585)">
+                <path id="Tracé_585-2" data-name="Tracé 585"
+                  d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
+                  transform="translate(9 6)" fill="#fff" />
+              </g>
+            </svg>
+
+            <p>
+              Lorem ipsum dolor,2 sit amet consectetur adipisicing elit.
+              Architecto quae, nostrum sint aspernatur at dolores, minus velit
+              ad sed nulla accusantium id accusamus vero hic?
+            </p>
+            <h1>Name FamName</h1>
           </li>
           <li class="carousel_slide">
-            <img src="public/car3.jpg" alt="" />
-            <div class="shader"></div>
-            <div class="text-holder">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              dolorem ullam inventore nobis ducimus omnis.
-            </div>
-            <a class="inscrivez-vous" href="">Inscrivez vous</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.911"
+              height="57.157" viewBox="0 0 60.911 57.157">
+              <defs>
+                <filter id="Tracé_585" x="0" y="0" width="60.911" height="57.157" filterUnits="userSpaceOnUse">
+                  <feOffset dy="3" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_585)">
+                <path id="Tracé_585-2" data-name="Tracé 585"
+                  d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
+                  transform="translate(9 6)" fill="#fff" />
+              </g>
+            </svg>
+
+            <p>
+              Lorem ipsum dolor,3 sit amet consectetur adipisicing elit.
+              Architecto quae, nostrum sint aspernatur at dolores, minus velit
+              ad sed nulla accusantium id accusamus vero hic?
+            </p>
+            <h1>Name FamName</h1>
           </li>
           <li class="carousel_slide">
-            <img src="public/car4.jpg" alt="" />
-            <div class="shader"></div>
-            <div class="text-holder">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              quos cum a illum corporis aperiam.
-            </div>
-            <a class="inscrivez-vous" href="">Inscrivez vous</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.911"
+              height="57.157" viewBox="0 0 60.911 57.157">
+              <defs>
+                <filter id="Tracé_585" x="0" y="0" width="60.911" height="57.157" filterUnits="userSpaceOnUse">
+                  <feOffset dy="3" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_585)">
+                <path id="Tracé_585-2" data-name="Tracé 585"
+                  d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
+                  transform="translate(9 6)" fill="#fff" />
+              </g>
+            </svg>
+
+            <p>
+              Lorem ipsum dolor,4 sit amet consectetur adipisicing elit.
+              Architecto quae, nostrum sint aspernatur at dolores, minus velit
+              ad sed nulla accusantium id accusamus vero hic?
+            </p>
+            <h1>Name FamName</h1>
           </li>
           <li class="carousel_slide">
-            <img src="public/car5.jpg" alt="" />
-            <div class="shader"></div>
-            <div class="text-holder">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              voluptatem, voluptates omnis vitae nam enim?
-            </div>
-            <a class="inscrivez-vous" href="">Inscrivez vous</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.911"
+              height="57.157" viewBox="0 0 60.911 57.157">
+              <defs>
+                <filter id="Tracé_585" x="0" y="0" width="60.911" height="57.157" filterUnits="userSpaceOnUse">
+                  <feOffset dy="3" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_585)">
+                <path id="Tracé_585-2" data-name="Tracé 585"
+                  d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
+                  transform="translate(9 6)" fill="#fff" />
+              </g>
+            </svg>
+
+            <p>
+              Lorem ipsum dolor, 5 sit amet consectetur adipisicing elit.
+              Architecto quae, nostrum sint aspernatur at dolores, minus velit
+              ad sed nulla accusantium id accusamus vero hic?
+            </p>
+            <h1>Name FamName</h1>
           </li>
         </ul>
       </div>
       <button class="carousel_button carousel_right">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="59.1"
-          height="72.4"
-          viewBox="0 0 59.1 72.4"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.1" height="72.4"
+          viewBox="0 0 59.1 72.4">
           <defs>
-            <filter
-              id="Tracé_36"
-              x="0"
-              y="0"
-              width="59.1"
-              height="72.4"
-              filterUnits="userSpaceOnUse"
-            >
+            <filter id="Tracé_36" x="0" y="0" width="59.1" height="72.4" filterUnits="userSpaceOnUse">
               <feOffset dy="4" input="SourceAlpha" />
               <feGaussianBlur stdDeviation="5.5" result="blur" />
               <feFlood flood-opacity="0.161" />
@@ -111,33 +415,16 @@
             </filter>
           </defs>
           <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_36)">
-            <path
-              id="Tracé_36-2"
-              data-name="Tracé 36"
-              d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
-              transform="translate(16.5 51.9) rotate(-90)"
-              fill="#fff"
-            />
+            <path id="Tracé_36-2" data-name="Tracé 36" d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
+              transform="translate(16.5 51.9) rotate(-90)" fill="#fff" />
           </g>
         </svg>
       </button>
       <button class="carousel_button carousel_left is-hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="59.1"
-          height="72.4"
-          viewBox="0 0 59.1 72.4"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.1" height="72.4"
+          viewBox="0 0 59.1 72.4">
           <defs>
-            <filter
-              id="Tracé_36"
-              x="0"
-              y="0"
-              width="59.1"
-              height="72.4"
-              filterUnits="userSpaceOnUse"
-            >
+            <filter id="Tracé_36" x="0" y="0" width="59.1" height="72.4" filterUnits="userSpaceOnUse">
               <feOffset dy="4" input="SourceAlpha" />
               <feGaussianBlur stdDeviation="5.5" result="blur" />
               <feFlood flood-opacity="0.161" />
@@ -145,22 +432,10 @@
               <feComposite in="SourceGraphic" />
             </filter>
           </defs>
-          <g
-            id="Forward_arrow_small"
-            data-name="Forward arrow small"
-            transform="translate(42.6 51.9) rotate(180)"
-          >
-            <g
-              transform="matrix(-1, 0, 0, -1, 42.6, 51.9)"
-              filter="url(#Tracé_36)"
-            >
-              <path
-                id="Tracé_36-2"
-                data-name="Tracé 36"
-                d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
-                transform="translate(42.6 12.5) rotate(90)"
-                fill="#fff"
-              />
+          <g id="Forward_arrow_small" data-name="Forward arrow small" transform="translate(42.6 51.9) rotate(180)">
+            <g transform="matrix(-1, 0, 0, -1, 42.6, 51.9)" filter="url(#Tracé_36)">
+              <path id="Tracé_36-2" data-name="Tracé 36" d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
+                transform="translate(42.6 12.5) rotate(90)" fill="#fff" />
             </g>
           </g>
         </svg>
@@ -173,551 +448,68 @@
       <button class="carousel_indicator"></button>
       <button class="carousel_indicator"></button>
     </div>
-
-    <div class="nos-partenaires">
-      <h1>Nos Partenaires</h1>
-      <div class="images">
-        <img src="public/partenaire1.png" alt="" />
-        <img src="public/partenaire2.jpg" alt="" />
-        <img src="public/partenaire3.jpg" alt="" />
-        <img src="public/partenaire4.png" alt="" />
-        <img src="public/partenaire1.png" alt="" />
-      </div>
-    </div>
-
-    <div class="intro">
+  </div>
+  <br /><br />
+  <div class="nousContacter">
+    <div class="container">
+      <form action="">
+        <h2>Nous Contacter</h2>
+        <input class="email" type="email" placeholder="E-mail" required />
+        <textarea placeholder="Message"></textarea>
+        <input class="submit" type="submit" />
+      </form>
       <div class="image">
-        <img src="public/imgIntro.png" alt="" />
+        <img src="public/Capture.PNG" alt="" />
       </div>
-      <div class="text">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nam
-          aspernatur, totam, corrupti impedit illum quo architecto amet
-          asperiores enim mollitia porro distinctio ipsam! Repudiandae commodi
-          corporis sit minus accusamus.
+    </div>
+  </div>
+  <br />
+  <br />
+  <div class="bottom">
+    <div class="container">
+      <div class="left">
+        <img src="public/logog.png" alt="" class="logo" />
+        <p class="text">
+          “Graines D’entrepreneurs Le Premier Programme De Pré Incubation
+          <br />
+          Pour Les Enfants En Tunisie. <br />Leader Un Jour, Leader Pour
+          Toujours"
         </p>
-        <a>Savoir Plus</a>
-      </div>
-    </div>
-    <div class="quelqueChiffres">
-      <h3>Graines En Quelques Chiffres</h3>
-      <div class="container">
-        <div class="box">
-          <img src="public/iconQlq1.png" alt="" />
-          <p class="chiffres" data-target="60">000</p>
-          <p class="desc">Idées <br />De Projet</p>
-        </div>
-        <div class="box">
-          <img src="public/iconQlq2.png" alt="" />
-          <p class="chiffres" data-target="215">000</p>
-          <p class="desc">Enfants Impactés</p>
-        </div>
-        <div class="box">
-          <img src="public/iconQlq3.png" alt="" />
-          <p class="chiffres" data-target="20">000</p>
-          <p class="desc">Coaches</p>
-        </div>
-        <div class="box">
-          <img src="public/iconQlq4.png" alt="" />
-          <p class="chiffres" data-target="450">000</p>
-          <p class="desc">Heures De Formations</p>
-        </div>
-        <div class="box">
-          <img src="public/iconQlq5.png" alt="" />
-          <p class="chiffres" data-target="30">000</p>
-          <p class="desc">Participation à Des Evénements</p>
-        </div>
-      </div>
-    </div>
-    <div class="inscription">
-      <div class="container">
-        <div class="boxes first">
-          <h1>
-            Programme <br />
-            Blabla
-          </h1>
-          <h6>Xs Semaines</h6>
-          <h6>enfant de 5 a 10ans</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
-            repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
-          </p>
-          <hr />
-          <a href="">Inscrivez-vous</a>
-        </div>
-        <div class="boxes second">
-          <h1>
-            Programme <br />
-            Blabla
-          </h1>
-          <h6>Xs Semaines</h6>
-          <h6>enfant de 5 a 10ans</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
-            repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
-          </p>
-          <hr />
-          <a href="">Inscrivez-vous</a>
-        </div>
-        <div class="boxes third">
-          <h1>
-            Programme <br />
-            Blabla
-          </h1>
-          <h6>Xs Semaines</h6>
-          <h6>enfant de 5 a 10ans</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
-            repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
-          </p>
-          <hr />
-          <a href="">Inscrivez-vous</a>
-        </div>
-        <div class="boxes forth">
-          <h1>
-            Programme <br />
-            Blabla
-          </h1>
-          <h6>Xs Semaines</h6>
-          <h6>enfant de 5 a 10ans</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            dolor modi aut ut totam perferendis! Commodi pariatur reiciendis
-            repellendus incidunt excepturi assumenda voluptatibus eius? Eveniet.
-          </p>
-          <hr />
-          <a href="">Inscrivez-vous</a>
-          <br />
-          <br />
-        </div>
-      </div>
-      <p class="someText">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
-        sunt.
-      </p>
-      <button class="btn"><a href="">Inscrivez-vous</a></button>
-      <div class="blueBg"></div>
-    </div>
-    <div class="vid">
-      <video
-        style="width: 70%; margin: 5vw 15%"
-        src="public/video.mp4"
-        controls
-      ></video>
-    </div>
-
-    <div class="temoignage">
-      <div class="carousel">
-        <div class="carousel_track-container">
-          <br />
-          <br />
-          <br />
-
-          <ul class="carousel_track">
-            <li class="carousel_slide current-slide">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="60.911"
-                height="57.157"
-                viewBox="0 0 60.911 57.157"
-              >
-                <defs>
-                  <filter
-                    id="Tracé_585"
-                    x="0"
-                    y="0"
-                    width="60.911"
-                    height="57.157"
-                    filterUnits="userSpaceOnUse"
-                  >
-                    <feOffset dy="3" input="SourceAlpha" />
-                    <feGaussianBlur stdDeviation="3" result="blur" />
-                    <feFlood flood-opacity="0.161" />
-                    <feComposite operator="in" in2="blur" />
-                    <feComposite in="SourceGraphic" />
-                  </filter>
-                </defs>
-                <g
-                  transform="matrix(1, 0, 0, 1, 0, 0)"
-                  filter="url(#Tracé_585)"
-                >
-                  <path
-                    id="Tracé_585-2"
-                    data-name="Tracé 585"
-                    d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
-                    transform="translate(9 6)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor, 1 sit amet consectetur adipisicing elit.
-                Architecto quae, nostrum sint aspernatur at dolores,
-              </p>
-              <h1>Name FamName</h1>
-            </li>
-            <li class="carousel_slide">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="60.911"
-                height="57.157"
-                viewBox="0 0 60.911 57.157"
-              >
-                <defs>
-                  <filter
-                    id="Tracé_585"
-                    x="0"
-                    y="0"
-                    width="60.911"
-                    height="57.157"
-                    filterUnits="userSpaceOnUse"
-                  >
-                    <feOffset dy="3" input="SourceAlpha" />
-                    <feGaussianBlur stdDeviation="3" result="blur" />
-                    <feFlood flood-opacity="0.161" />
-                    <feComposite operator="in" in2="blur" />
-                    <feComposite in="SourceGraphic" />
-                  </filter>
-                </defs>
-                <g
-                  transform="matrix(1, 0, 0, 1, 0, 0)"
-                  filter="url(#Tracé_585)"
-                >
-                  <path
-                    id="Tracé_585-2"
-                    data-name="Tracé 585"
-                    d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
-                    transform="translate(9 6)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor,2 sit amet consectetur adipisicing elit.
-                Architecto quae, nostrum sint aspernatur at dolores, minus velit
-                ad sed nulla accusantium id accusamus vero hic?
-              </p>
-              <h1>Name FamName</h1>
-            </li>
-            <li class="carousel_slide">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="60.911"
-                height="57.157"
-                viewBox="0 0 60.911 57.157"
-              >
-                <defs>
-                  <filter
-                    id="Tracé_585"
-                    x="0"
-                    y="0"
-                    width="60.911"
-                    height="57.157"
-                    filterUnits="userSpaceOnUse"
-                  >
-                    <feOffset dy="3" input="SourceAlpha" />
-                    <feGaussianBlur stdDeviation="3" result="blur" />
-                    <feFlood flood-opacity="0.161" />
-                    <feComposite operator="in" in2="blur" />
-                    <feComposite in="SourceGraphic" />
-                  </filter>
-                </defs>
-                <g
-                  transform="matrix(1, 0, 0, 1, 0, 0)"
-                  filter="url(#Tracé_585)"
-                >
-                  <path
-                    id="Tracé_585-2"
-                    data-name="Tracé 585"
-                    d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
-                    transform="translate(9 6)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor,3 sit amet consectetur adipisicing elit.
-                Architecto quae, nostrum sint aspernatur at dolores, minus velit
-                ad sed nulla accusantium id accusamus vero hic?
-              </p>
-              <h1>Name FamName</h1>
-            </li>
-            <li class="carousel_slide">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="60.911"
-                height="57.157"
-                viewBox="0 0 60.911 57.157"
-              >
-                <defs>
-                  <filter
-                    id="Tracé_585"
-                    x="0"
-                    y="0"
-                    width="60.911"
-                    height="57.157"
-                    filterUnits="userSpaceOnUse"
-                  >
-                    <feOffset dy="3" input="SourceAlpha" />
-                    <feGaussianBlur stdDeviation="3" result="blur" />
-                    <feFlood flood-opacity="0.161" />
-                    <feComposite operator="in" in2="blur" />
-                    <feComposite in="SourceGraphic" />
-                  </filter>
-                </defs>
-                <g
-                  transform="matrix(1, 0, 0, 1, 0, 0)"
-                  filter="url(#Tracé_585)"
-                >
-                  <path
-                    id="Tracé_585-2"
-                    data-name="Tracé 585"
-                    d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
-                    transform="translate(9 6)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor,4 sit amet consectetur adipisicing elit.
-                Architecto quae, nostrum sint aspernatur at dolores, minus velit
-                ad sed nulla accusantium id accusamus vero hic?
-              </p>
-              <h1>Name FamName</h1>
-            </li>
-            <li class="carousel_slide">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="60.911"
-                height="57.157"
-                viewBox="0 0 60.911 57.157"
-              >
-                <defs>
-                  <filter
-                    id="Tracé_585"
-                    x="0"
-                    y="0"
-                    width="60.911"
-                    height="57.157"
-                    filterUnits="userSpaceOnUse"
-                  >
-                    <feOffset dy="3" input="SourceAlpha" />
-                    <feGaussianBlur stdDeviation="3" result="blur" />
-                    <feFlood flood-opacity="0.161" />
-                    <feComposite operator="in" in2="blur" />
-                    <feComposite in="SourceGraphic" />
-                  </filter>
-                </defs>
-                <g
-                  transform="matrix(1, 0, 0, 1, 0, 0)"
-                  filter="url(#Tracé_585)"
-                >
-                  <path
-                    id="Tracé_585-2"
-                    data-name="Tracé 585"
-                    d="M15.824,22.224V39.157H0V25.663C0,18.52.8,13.229,2.682,9.789A22.087,22.087,0,0,1,13.678,0l3.755,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.609,2.381-2.414,6.085-2.414,10.847Zm25.747,0V39.157H25.747V25.663c0-7.408.8-12.435,2.682-15.874A22.087,22.087,0,0,1,39.425,0l3.487,5.821a14.039,14.039,0,0,0-6.7,5.556c-1.341,2.381-2.146,6.085-2.414,10.847Z"
-                    transform="translate(9 6)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-
-              <p>
-                Lorem ipsum dolor, 5 sit amet consectetur adipisicing elit.
-                Architecto quae, nostrum sint aspernatur at dolores, minus velit
-                ad sed nulla accusantium id accusamus vero hic?
-              </p>
-              <h1>Name FamName</h1>
-            </li>
-          </ul>
-        </div>
-        <button class="carousel_button carousel_right">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="59.1"
-            height="72.4"
-            viewBox="0 0 59.1 72.4"
-          >
-            <defs>
-              <filter
-                id="Tracé_36"
-                x="0"
-                y="0"
-                width="59.1"
-                height="72.4"
-                filterUnits="userSpaceOnUse"
-              >
-                <feOffset dy="4" input="SourceAlpha" />
-                <feGaussianBlur stdDeviation="5.5" result="blur" />
-                <feFlood flood-opacity="0.161" />
-                <feComposite operator="in" in2="blur" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-            </defs>
-            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_36)">
-              <path
-                id="Tracé_36-2"
-                data-name="Tracé 36"
-                d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
-                transform="translate(16.5 51.9) rotate(-90)"
-                fill="#fff"
-              />
-            </g>
-          </svg>
-        </button>
-        <button class="carousel_button carousel_left is-hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="59.1"
-            height="72.4"
-            viewBox="0 0 59.1 72.4"
-          >
-            <defs>
-              <filter
-                id="Tracé_36"
-                x="0"
-                y="0"
-                width="59.1"
-                height="72.4"
-                filterUnits="userSpaceOnUse"
-              >
-                <feOffset dy="4" input="SourceAlpha" />
-                <feGaussianBlur stdDeviation="5.5" result="blur" />
-                <feFlood flood-opacity="0.161" />
-                <feComposite operator="in" in2="blur" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-            </defs>
-            <g
-              id="Forward_arrow_small"
-              data-name="Forward arrow small"
-              transform="translate(42.6 51.9) rotate(180)"
-            >
-              <g
-                transform="matrix(-1, 0, 0, -1, 42.6, 51.9)"
-                filter="url(#Tracé_36)"
-              >
-                <path
-                  id="Tracé_36-2"
-                  data-name="Tracé 36"
-                  d="M19.7,26.1,0,5.99,5.868,0,19.7,14.12,33.532,0,39.4,5.99Z"
-                  transform="translate(42.6 12.5) rotate(90)"
-                  fill="#fff"
-                />
-              </g>
-            </g>
-          </svg>
-        </button>
-      </div>
-      <div class="carousel_nav">
-        <button class="carousel_indicator current-slide"></button>
-        <button class="carousel_indicator"></button>
-        <button class="carousel_indicator"></button>
-        <button class="carousel_indicator"></button>
-        <button class="carousel_indicator"></button>
-      </div>
-    </div>
-    <br /><br />
-    <div class="nousContacter">
-      <div class="container">
+        <h7>Abonnez-Vous À Notre Newsletter</h7><br />
         <form action="">
-          <h2>Nous Contacter</h2>
-          <input class="email" type="email" placeholder="E-mail" required />
-          <textarea placeholder="Message"></textarea>
-          <input class="submit" type="submit" />
+          <input class="email" type="email" name="" id="" placeholder="E-mail" required /><input class="submit"
+            type="submit" />
         </form>
-        <div class="image">
-          <img src="public/Capture.PNG" alt="" />
-        </div>
+        <br />
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35.077" height="35.077" viewBox="0 0 35.077 35.077">
+            <path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square"
+              d="M31.319,2.25H3.758A3.758,3.758,0,0,0,0,6.008V33.569a3.758,3.758,0,0,0,3.758,3.758H14.5V25.4H9.572V19.789H14.5V15.51c0-4.866,2.9-7.554,7.334-7.554a29.883,29.883,0,0,1,4.347.379v4.776H23.737c-2.412,0-3.165,1.5-3.165,3.032v3.645h5.385L25.1,25.4H20.572V37.327H31.319a3.758,3.758,0,0,0,3.758-3.758V6.008A3.758,3.758,0,0,0,31.319,2.25Z"
+              transform="translate(0 -2.25)" fill="#fff" />
+          </svg> </a><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35.076" height="35.068"
+            viewBox="0 0 35.076 35.068">
+            <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram"
+              d="M17.536,10.781a8.991,8.991,0,1,0,8.991,8.991A8.977,8.977,0,0,0,17.536,10.781Zm0,14.836a5.845,5.845,0,1,1,5.845-5.845A5.856,5.856,0,0,1,17.536,25.617Zm11.456-15.2a2.1,2.1,0,1,1-2.1-2.1A2.092,2.092,0,0,1,28.992,10.413Zm5.955,2.128c-.133-2.809-.775-5.3-2.833-7.348S27.576,2.5,24.767,2.361c-2.9-.164-11.573-.164-14.468,0-2.8.133-5.29.775-7.348,2.825S.259,9.724.118,12.533c-.164,2.9-.164,11.573,0,14.468.133,2.809.775,5.3,2.833,7.348s4.538,2.692,7.348,2.833c2.9.164,11.573.164,14.468,0,2.809-.133,5.3-.775,7.348-2.833S34.806,29.811,34.947,27c.164-2.9.164-11.565,0-14.461Zm-3.74,17.567a5.918,5.918,0,0,1-3.333,3.333c-2.308.916-7.786.7-10.337.7s-8.036.2-10.337-.7a5.918,5.918,0,0,1-3.333-3.333c-.916-2.308-.7-7.786-.7-10.337s-.2-8.036.7-10.337A5.918,5.918,0,0,1,7.2,6.1c2.308-.916,7.786-.7,10.337-.7s8.036-.2,10.337.7a5.918,5.918,0,0,1,3.333,3.333c.916,2.308.7,7.786.7,10.337S32.122,27.808,31.207,30.108Z"
+              transform="translate(0.005 -2.238)" fill="#fff" />
+          </svg>
+        </a>
       </div>
-    </div>
-    <br />
-    <br />
-    <div class="bottom">
-      <div class="container">
-        <div class="left">
-          <img src="public/logog.png" alt="" class="logo" />
-          <p class="text">
-            “Graines D’entrepreneurs Le Premier Programme De Pré Incubation
-            <br />
-            Pour Les Enfants En Tunisie. <br />Leader Un Jour, Leader Pour
-            Toujours"
-          </p>
-          <h7>Abonnez-Vous À Notre Newsletter</h7><br />
-          <form action="">
-            <input
-              class="email"
-              type="email"
-              name=""
-              id=""
-              placeholder="E-mail"
-              required
-            /><input class="submit" type="submit" />
-          </form>
-          <br />
-          <a href=""
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="35.077"
-              height="35.077"
-              viewBox="0 0 35.077 35.077"
-            >
-              <path
-                id="Icon_awesome-facebook-square"
-                data-name="Icon awesome-facebook-square"
-                d="M31.319,2.25H3.758A3.758,3.758,0,0,0,0,6.008V33.569a3.758,3.758,0,0,0,3.758,3.758H14.5V25.4H9.572V19.789H14.5V15.51c0-4.866,2.9-7.554,7.334-7.554a29.883,29.883,0,0,1,4.347.379v4.776H23.737c-2.412,0-3.165,1.5-3.165,3.032v3.645h5.385L25.1,25.4H20.572V37.327H31.319a3.758,3.758,0,0,0,3.758-3.758V6.008A3.758,3.758,0,0,0,31.319,2.25Z"
-                transform="translate(0 -2.25)"
-                fill="#fff"
-              />
-            </svg> </a
-          ><a href=""
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="35.076"
-              height="35.068"
-              viewBox="0 0 35.076 35.068"
-            >
-              <path
-                id="Icon_awesome-instagram"
-                data-name="Icon awesome-instagram"
-                d="M17.536,10.781a8.991,8.991,0,1,0,8.991,8.991A8.977,8.977,0,0,0,17.536,10.781Zm0,14.836a5.845,5.845,0,1,1,5.845-5.845A5.856,5.856,0,0,1,17.536,25.617Zm11.456-15.2a2.1,2.1,0,1,1-2.1-2.1A2.092,2.092,0,0,1,28.992,10.413Zm5.955,2.128c-.133-2.809-.775-5.3-2.833-7.348S27.576,2.5,24.767,2.361c-2.9-.164-11.573-.164-14.468,0-2.8.133-5.29.775-7.348,2.825S.259,9.724.118,12.533c-.164,2.9-.164,11.573,0,14.468.133,2.809.775,5.3,2.833,7.348s4.538,2.692,7.348,2.833c2.9.164,11.573.164,14.468,0,2.809-.133,5.3-.775,7.348-2.833S34.806,29.811,34.947,27c.164-2.9.164-11.565,0-14.461Zm-3.74,17.567a5.918,5.918,0,0,1-3.333,3.333c-2.308.916-7.786.7-10.337.7s-8.036.2-10.337-.7a5.918,5.918,0,0,1-3.333-3.333c-.916-2.308-.7-7.786-.7-10.337s-.2-8.036.7-10.337A5.918,5.918,0,0,1,7.2,6.1c2.308-.916,7.786-.7,10.337-.7s8.036-.2,10.337.7a5.918,5.918,0,0,1,3.333,3.333c.916,2.308.7,7.786.7,10.337S32.122,27.808,31.207,30.108Z"
-                transform="translate(0.005 -2.238)"
-                fill="#fff"
-              />
-            </svg>
-          </a>
-        </div>
-        <div class="right">
-          <a href="">Contacter</a>
-          <a href="">A Propos de</a>
-          <a href="">Nos Programmes</a>
-          <a href="">Nos Emissions Radio</a>
-          <a href="">Nos Graines</a>
+      <div class="right">
+        <a href="">Contacter</a>
+        <a href="">A Propos de</a>
+        <a href="">Nos Programmes</a>
+        <a href="">Nos Emissions Radio</a>
+        <a href="">Nos Graines</a>
 
-          <p>
-            Grainesentrepreneurs@Gmail.Com <br />
-            26.27.27.31 <br />
-            50.28.85.62
-          </p>
-        </div>
+        <p>
+          Grainesentrepreneurs@Gmail.Com <br />
+          26.27.27.31 <br />
+          50.28.85.62
+        </p>
       </div>
     </div>
-    <script src="src/carousel.js"></script>
-    <script src="src/quelqueChiffres.js"></script>
-  </body>
+  </div>
+  <script src="src/carousel.js"></script>
+  <script src="src/quelqueChiffres.js"></script>
+</body>
+
 </html>
